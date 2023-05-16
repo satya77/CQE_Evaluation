@@ -1,13 +1,25 @@
 # CQE Evaluation 
+##Main repo [CQE](https://github.com/vivkaz/CQE).
+
 A Framework for Comprehensive Quantity Extraction. This repository contains evaluation code for the paper:
 
 [CQE: A Framework for Comprehensive Quantity Extraction
-]()
+](https://arxiv.org/pdf/2305.08853v1.pdf)
  
 Satya Almasian*, Vivian Kazakova*, Philipp Göldner, Michael Gertz  
 Institute of Computer Science, Heidelberg University  
 (`*` indicates equal contribution)
-
+If you found this useful, consider citing us:
+```
+@misc{almasian2023cqe,
+      title={CQE: A Comprehensive Quantity Extractor}, 
+      author={Satya Almasian and Vivian Kazakova and Philip Göldner and Michael Gertz},
+      year={2023},
+      eprint={2305.08853},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 ### Prerequisites
 Make sure you have Python 3.9 and spaCy 3.0.9 installed. 
 Visit the [CQE](https://github.com/vivkaz/CQE) repository for instruction to install CEQ. 
