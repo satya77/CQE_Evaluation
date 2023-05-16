@@ -22,14 +22,14 @@ If you found this useful, consider citing us:
 ```
 ### Prerequisites
 Make sure you have Python 3.9 and spaCy 3.0.9 installed. 
-Visit the [CQE](https://github.com/vivkaz/CQE) repository for instruction to install CEQ. 
-You also need to install some python packages. Run
+Visit the [CQE](https://github.com/vivkaz/CQE) repository for instruction to install CQE. 
+You also need to install some additional python packages for the evaluation. Run
 ```
 pip install -r requirements.txt
 ```
 
 ### File and folder structure
-To replicated the results from the paper and significance testing, use the following scripts.
+To replicate the results from the paper and significance testing, use the following scripts.
 Significance testing scripts are under `significance_testing` package.
 The computed results are also present under `data/evaluation_output`.
 
@@ -55,8 +55,8 @@ The evaluation data can be found in `/data/formatted_test_set` and consists of 5
 | [dimension-model.json](data/dimension-model.json) | 93         | 121         | [Microsoft.Recognizers.Text Test Cases Specs](https://github.com/microsoft/Recognizers-Text/blob/master/Specs/NumberWithUnit/English/DimensionModel.json)   |
 | [temperature-model.json](data/recognizers-text/temperature-model.json) | 36         | 34          | [Microsoft.Recognizers.Text Test Cases Specs](https://github.com/microsoft/Recognizers-Text/blob/master/Specs/NumberWithUnit/English/TemperatureModel.json) |
 
-The predictions from GPT-3 for the test datasets above can be found in  `/data/gpt_3_ouput`.
+The predictions from GPT-3 for the test datasets above can be found in  `/data/gpt_3_output`.
 
-To train and test the unit classifier we generated data using ChatGPT, for the prompts used refer to the paper.
+To train and test the unit classifier, we generated data using ChatGPT. For the prompts used please refer to the paper.
 The generated sentences and their classes are under `/data/units/train` (1,827 samples) and `/data/units/test` (180 samples).
 
