@@ -8,7 +8,7 @@ A Framework for Comprehensive Quantity Extraction. This repository contains eval
  
 Satya Almasian*, Vivian Kazakova*, Philipp Göldner, Michael Gertz  
 Institute of Computer Science, Heidelberg University  
-(`*` indicates equal contribution)
+(`*` indicates equal contribution)  
 If you found this useful, consider citing us:
 ```
 @misc{almasian2023cqe,
