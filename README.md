@@ -22,7 +22,10 @@ If you found this useful, consider citing us:
 ```
 ### Prerequisites
 Make sure you have Python 3.9 and spaCy 3.0.9 installed. 
-Visit the [CQE](https://github.com/vivkaz/CQE) repository for instruction to install CEQ. 
+Visit the [CQE](https://github.com/vivkaz/CQE) repository for more instructions. 
+```
+pip install CQE
+```
 You also need to install some python packages. Run
 ```
 pip install -r requirements.txt
